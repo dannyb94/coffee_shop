@@ -16,4 +16,4 @@ btnClick.addEventListener('click', (event) => {
 /*I'm gonna hop in the study group Saturday to see if there's a way to call id prefixes
 to cut out most of line 10. Shouldn't have to create functions for each item when they're all
 basically the same. Google/coding sites aren't giving me definitive answers, but
-the few non-related examples are showing it's possible. Just none of my methods are working :( */
+the few examples I did find are showing it's possible. Just none of my methods are working :( */
