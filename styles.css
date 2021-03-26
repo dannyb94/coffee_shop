@@ -1,0 +1,98 @@
+*{
+    background-color: rosybrown;
+}
+@media only screen and (min-width: 320px){
+    header section{
+        background-color: sienna;
+    }
+   .head h1{
+    font-family: 'New Tegomin', serif;
+    font-size: 50px;
+    text-align: center;
+    background-color: sienna;
+   }
+   .slogan h4{
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    text-align: center;
+    background-color: sienna;
+   }
+   thead{
+       width: 900px;
+    }
+    thead th{
+        padding-left: 30px;
+        padding-right: 50px;
+    }
+
+   /*Table design*/
+    #table{
+        text-align: center;
+        margin-bottom: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    thead, tbody {
+        border: 2px solid black;
+    }
+    .button{
+        align-items: center;
+    }
+
+
+
+    .footer {
+        background: sienna;
+        border-top: 2px solid black;
+        align-items:  center;
+    }   
+   .footer img{
+       width: 200px;
+       height: 200px;
+       margin-top:20px;
+       margin-bottom: 20px;
+   }
+   .list-2{
+       margin-top: 20px;
+       background-color: sienna;
+       margin-bottom: 20px;  
+   }
+   .list-2 ul{
+    background-color: sienna;
+   }
+   .list-2 ul li{
+    background-color: sienna;
+   }
+   .list-2 ul a{
+    background-color: sienna;
+   }
+}
+
+@media only screen and (min-width: 768px){
+    .footer{
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer img{
+        margin-left:25px;
+    }
+    .list-2{
+        margin-right: 25px;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .footer img{
+        width: 250px;
+        height: 250px;
+        margin-left:100px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    .list-2{
+        margin-top: 50px;
+        margin-right: 100px;
+    }
+}
