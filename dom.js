@@ -1,5 +1,7 @@
 var inventory1 = document.querySelector("#qnty1");
 var inventory2 = document.querySelector("#qnty2");
+var inventory3 = document.querySelector("#qnty3");
+var inventory4 = document.querySelector("#qnty4");
 var totalItems = 2;
 var btnClick = document.getElementById("btn");
 
@@ -7,7 +9,7 @@ btnClick.addEventListener('click', (event) => {
     var finalCost = 0;
     for(var i = 0; i <= totalItems; i++){
         if(event.target.id == 'btn'){
-            finalCost = ((Number(inventory1.dataset.price) * inventory1.value) + (Number(inventory2.dataset.price) * inventory2.value));
+            finalCost = ((Number(inventory1.dataset.price) * inventory1.value) + (Number(inventory2.dataset.price) * inventory2.value) * (Number(inventory3.dataset.price) * inventory3.value) * (Number(inventory4.dataset.price) * inventory4.value));
         }
     }
     document.getElementById("totalPrice").innerHTML = "$" + finalCost;/**/

@@ -1,32 +1,100 @@
 *{
-    background-color: rosybrown;
+    background-color: burlywood;
 }
-@media only screen and (min-width: 320px){
-    header section{
+
+@media only screen and (min-width: 420px){ /*Made your min-width 420 to fit iphone max and galaxies*/
+    header {
         background-color: sienna;
+        margin-bottom: 30px;
+        border: thick double wheat;
     }
-   .head h1{
-    font-family: 'New Tegomin', serif;
-    font-size: 50px;
-    text-align: center;
-    background-color: sienna;
-   }
-   .slogan h4{
-    font-family: 'Caveat', cursive;
-    font-size: 30px;
-    text-align: center;
-    background-color: sienna;
-   }
-   thead{
+
+    .name {
+        font-family: 'New Tegomin', serif;
+        font-size: 80px;
+        text-align: center;
+        background-color: sienna;
+        margin: 0;
+        padding: 0;
+    }
+
+    .slogan {
+        font-family: 'Caveat', cursive;
+        font-size: 30px;
+        text-align: center;
+        background-color: sienna;
+        padding-bottom: 25px;
+        margin-bottom: 10px;
+    }
+
+    #container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: minmax(75px, auto);
+        gap: 1em;
+        justify-content: space-evenly;
+        justify-items: center;
+        align-content: space-evenly;
+        align-items: center;
+    }
+
+    .box1{
+        grid-column: 1 / 3;
+        border-radius: 5px;
+    }
+    .box2{
+        grid-column: 3 / 5;
+        border-radius: 5px;
+    }
+    .box3{
+        grid-column: 1 / 3;
+        border-radius: 5px;
+    }
+    .box4{
+        grid-column: 3 / 5;
+        border-radius: 5px;
+    }
+
+    #ftrCntnr {
+        border-top: 2px solid wheat;
+        align-items: center;
+        align-content: center;
+    }
+
+    #ftrCntnr img {
+        margin: 5px;
+        float: left;
+        padding-right: 20px;
+    }
+
+    a:link {
+        text-decoration: none;
+        color: wheat;
+        margin: 6px;
+        margin-top: 10px;
+    }
+    
+    a:hover {
+        color: black;
+    }
+
+    #theLast {
+        margin-left: 45px;
+    }
+}
+/*
+@media only screen and (min-width: 320px){
+
+   thead {
        width: 900px;
     }
-    thead th{
+    thead th {
         padding-left: 30px;
         padding-right: 50px;
     }
 
-   /*Table design*/
-    #table{
+   Table design
+    #table {
         text-align: center;
         margin-bottom: 10px;
         padding: 10px;
@@ -38,61 +106,59 @@
     thead, tbody {
         border: 2px solid black;
     }
-    .button{
+    .button {
         align-items: center;
     }
 
 
 
-    .footer {
-        background: sienna;
-        border-top: 2px solid black;
-        align-items:  center;
-    }   
-   .footer img{
-       width: 200px;
-       height: 200px;
-       margin-top:20px;
-       margin-bottom: 20px;
-   }
-   .list-2{
+    
+   .list-2 {
        margin-top: 20px;
        background-color: sienna;
        margin-bottom: 20px;  
    }
-   .list-2 ul{
+   .list-2 ul {
     background-color: sienna;
    }
-   .list-2 ul li{
+   .list-2 ul li {
     background-color: sienna;
    }
-   .list-2 ul a{
+   .list-2 ul a {
     background-color: sienna;
    }
 }
 
 @media only screen and (min-width: 768px){
-    .footer{
+    .footer {
         display: flex;
         justify-content: space-around;
     }
-    .footer img{
+    .footer img {
         margin-left:25px;
     }
-    .list-2{
+    .list-2 {
         margin-right: 25px;
     }
 }
 @media only screen and (min-width: 1024px){
-    .footer img{
+    .footer img {
         width: 250px;
         height: 250px;
         margin-left:100px;
         margin-top: 50px;
         margin-bottom: 20px;
     }
-    .list-2{
+    .list-2 {
         margin-top: 50px;
         margin-right: 100px;
     }
+
+    footer img {
+       width: 200px;
+       height: 200px;
+       margin-top:20px;
+       margin-bottom: 20px;
+   }
 }
+*/

@@ -1,58 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coffee Shop</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=New+Tegomin&display=swap" rel="stylesheet">
-</head>
-<header>
-    <section>
-        <div class="head">
-            <h1>Coffee Shop</h1>
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Coffee Shop</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=New+Tegomin&display=swap" rel="stylesheet">
+    </head>
+    <header>
+        <h1 class="name">Coffee Shop</h1>
+        <h4 class="slogan">We make mornings better and nights longer.</h4>
+    </header>
+    <body>
+        <div id="container">
+            <div class="box box1">
+                <img src="Assets/bagel_pic.jpg" height="150px" width="250px" alt="picture of bagel sandwich">
+                <form>
+                    <label for="bagels">Bagels $4.50 <input type="number" id="qnty1" value="0" name="bagels" size="2" data-price="4.50"/></label>
+                </form>
+            </div>
+            <div class="box box2">
+                <img src="Assets/cookies_pic.jpg" height="150px" width="250px" alt="picture of cookies">
+                <form>
+                    <label for="cookie">Cookie $5 <input type="number" id="qnty2" value="0" name="cookie" size="2" data-price="5"/></label>
+                </form>
+            </div>
+            <div class="box box3">
+                <img src="Assets/tea_img2.jpg" height="150px" width="250px" alt="picture of tea">
+                <form>
+                    <label for="tea">Tea $3.50 <input type="number" id="qnty3" value="0" name="tea" size="2" data-price="3.50"/></label>
+                </form>
+            </div>
+            <div class="box box4">
+                <img src="Assets/coffee_pic.jpg" height="150px" width="250px" alt="picture of coffee">
+                <form>
+                    <label for="coffee">Coffee $4 <input type="number" id="qnty4" value="0" name="coffee" size="2" data-price="4"/></label>
+                </form>
+            </div>
         </div>
-        <div class="slogan">
-            <h4>We make the mornings better. We make the nights longer.</h4>
+        
+
+
+<!-------------------------------------OUTPUT/BUTTON/FOOTER BELOW-------------------------------------->
+
+
+        <div>
+            <form>
+                <label for="cost">Total: <output for="qnt_" id="totalPrice" name="totalPrice"></output></label>
+            </form>
         </div>
-    </section>
-    
-</header>
-<body>
-    <main>
-        <div class="table">
-            <table id="table" >
-                <thead>
-                    <h1>
-                        <strong>Menu</strong>
-                    </h1>
-                    <th>Bagel
-                        <div class="image_bagel"></div>
-                        <img src="bagel_pic.jpg" height="70px" alt="">
-                    </th>
-                    <th>Tea
-                        <div class="Image_cookie">
-                            <img src="teaCup_pic.jpg" height="70px" alt="">
-                        </div>
-                    </th>
-                    <th>Cookies
-                        <div class="image_cookie">
-                            <img src="cookies_pic.jpg" height="70px" alt="">
-                        </div>
-                    </th>
-                    <th>Coffee
-                        <div class="image_coffee">
-                            <img src="coffee_pic.jpg" height="70px" alt="">
-                        </div>
-                    </th>
-                    <th>Ice Coffee
-                        <div class="ice_coffee">
-                            <img src="ice_coffe.jpg" height="70px" alt="">
-                        </div>
-                    </th>
-                </thead>
+        <button id="btn">Submit Order</button>
+
+        <footer>
+            <section id="ftrCntnr">
+                <img src="Assets/map.jpg" height="150px" width="150px" alt="picture of map location">
+                <div id="navgtn">
+                    <a href="#">About Us</a>
+                    <a href="#">Corporate Contact</a>
+                    <a href="#">Get Directions</a>
+                </div>
+                <p id="theLast">America St in USATOWN, USA 12345</p>
+
+            </section>
+        </footer>
+
+        <script src="dom.js"></script>
+    </body>
+</html>
+
+
+<!--
                 <tbody>
                     <tr>
                         <td>
@@ -158,16 +175,7 @@
             <input type="number">
         </div>
     </main>
-    <footer class="footer">
-        <img src="map.jpg">
-        <div class="list-2">
-            <ul class="links-2">
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Email</a>:coffeeshop@gmail.com</li>
-                <li><a href="#">Coffee Shop Corporate</a>:coffeeshopcorporate.com</li>
-                <li><a href="#">Get Directions</a>:123 America St in USATOWN, USA 12345</li>
-            </ul>
-        </div>
-    </footer>
+    
 </body>
 </html>
+-->
