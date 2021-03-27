@@ -8,6 +8,7 @@
         margin-bottom: 30px;
         border: thick double wheat;
     }
+<<<<<<< HEAD
 
     .name {
         font-family: 'New Tegomin', serif;
@@ -100,6 +101,30 @@
 
    Table design
     #table {
+=======
+   .head h1{
+    font-family: 'New Tegomin', serif;
+    font-size: 50px;
+    text-align: center;
+    background-color: sienna;
+   }
+   .slogan h4{
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    text-align: center;
+    background-color: sienna;
+   }
+   thead{
+       width: 900px;
+    }
+    thead th{
+        padding-left: 30px;
+        padding-right: 50px;
+    }
+
+   /*Table design*/
+    #table{
+>>>>>>> a9f7351c9ad50f445b9e415504e0c6c1e6236911
         text-align: center;
         margin-bottom: 10px;
         padding: 10px;
@@ -111,14 +136,33 @@
     thead, tbody {
         border: 2px solid black;
     }
+<<<<<<< HEAD
     .button {
+=======
+    .button{
+>>>>>>> a9f7351c9ad50f445b9e415504e0c6c1e6236911
         align-items: center;
     }
 
 
 
+<<<<<<< HEAD
     
    .list-2 {
+=======
+    .footer {
+        background: sienna;
+        border-top: 2px solid black;
+        align-items:  center;
+    }   
+   .footer img{
+       width: 200px;
+       height: 200px;
+       margin-top:20px;
+       margin-bottom: 20px;
+   }
+   .list-2{
+>>>>>>> a9f7351c9ad50f445b9e415504e0c6c1e6236911
        margin-top: 20px;
        background-color: sienna;
        margin-bottom: 20px;  
