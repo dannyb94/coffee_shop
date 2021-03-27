@@ -56,15 +56,20 @@
     }
 
     #ftrCntnr {
+        /*background-color: sienna;*/
         border-top: 2px solid wheat;
-        align-items: center;
-        align-content: center;
+        position: static;
+    }
+
+    #navgtn {
+        padding-left: 0;
+        margin-left: 0;
     }
 
     #ftrCntnr img {
-        margin: 5px;
         float: left;
-        padding-right: 20px;
+        margin: 15px;
+        padding-left: 0px;
     }
 
     a:link {
