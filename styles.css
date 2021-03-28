@@ -2,7 +2,7 @@
     background-color: burlywood;
 }
 
-@media only screen and (min-width: 320px){ /*Made your min-width 420 to fit iphone max and galaxies*/
+@media only screen and (min-width: 420px){ /*Made your min-width 420 to fit iphone max and galaxies*/
     /*header*/
     header {
         background-color: sienna;
