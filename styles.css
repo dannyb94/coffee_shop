@@ -2,212 +2,95 @@
     background-color: burlywood;
 }
 
-@media only screen and (min-width: 420px){ /*Made your min-width 420 to fit iphone max and galaxies*/
+@media only screen and (min-width: 320px){ /*Made your min-width 420 to fit iphone max and galaxies*/
+    /*header*/
     header {
         background-color: sienna;
         margin-bottom: 30px;
         border: thick double wheat;
     }
-<<<<<<< HEAD
-
-    .name {
-        font-family: 'New Tegomin', serif;
-        font-size: 80px;
-        text-align: center;
-        background-color: sienna;
-        margin: 0;
-        padding: 0;
-    }
-
-    .slogan {
-        font-family: 'Caveat', cursive;
-        font-size: 30px;
-        text-align: center;
-        background-color: sienna;
-        padding-bottom: 25px;
-        margin-bottom: 10px;
-    }
-
-    #container {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-auto-rows: minmax(75px, auto);
-        gap: 1em;
-        justify-content: space-evenly;
-        justify-items: center;
-        align-content: space-evenly;
-        align-items: center;
-    }
-
-    .box1{
-        grid-column: 1 / 3;
-        border-radius: 5px;
-    }
-    .box2{
-        grid-column: 3 / 5;
-        border-radius: 5px;
-    }
-    .box3{
-        grid-column: 1 / 3;
-        border-radius: 5px;
-    }
-    .box4{
-        grid-column: 3 / 5;
-        border-radius: 5px;
-    }
-
-    #ftrCntnr {
-        /*background-color: sienna;*/
-        border-top: 2px solid wheat;
-        position: static;
-    }
-
-    #navgtn {
-        padding-left: 0;
-        margin-left: 0;
-    }
-
-    #ftrCntnr img {
-        float: left;
-        margin: 15px;
-        padding-left: 0px;
-    }
-
-    a:link {
-        text-decoration: none;
-        color: wheat;
-        margin: 6px;
-        margin-top: 10px;
-    }
-    
-    a:hover {
-        color: black;
-    }
-
-    #theLast {
-        margin-left: 45px;
-    }
-}
-/*
-@media only screen and (min-width: 320px){
-
-   thead {
-       width: 900px;
-    }
-    thead th {
-        padding-left: 30px;
-        padding-right: 50px;
-    }
-
-   Table design
-    #table {
-=======
-   .head h1{
+   .name{
     font-family: 'New Tegomin', serif;
     font-size: 50px;
     text-align: center;
     background-color: sienna;
    }
-   .slogan h4{
+   .slogan{
     font-family: 'Caveat', cursive;
     font-size: 30px;
     text-align: center;
     background-color: sienna;
    }
-   thead{
-       width: 900px;
+    /*body*/
+    #container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+    .box{
+        margin-bottom: 20px;
     }
-    thead th{
-        padding-left: 30px;
-        padding-right: 50px;
-    }
-
-   /*Table design*/
-    #table{
->>>>>>> a9f7351c9ad50f445b9e415504e0c6c1e6236911
-        text-align: center;
-        margin-bottom: 10px;
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-    }
-    thead, tbody {
-        border: 2px solid black;
-    }
-<<<<<<< HEAD
-    .button {
-=======
-    .button{
->>>>>>> a9f7351c9ad50f445b9e415504e0c6c1e6236911
-        align-items: center;
-    }
-
-
-
-<<<<<<< HEAD
     
-   .list-2 {
-=======
-    .footer {
-        background: sienna;
-        border-top: 2px solid black;
-        align-items:  center;
-    }   
-   .footer img{
+    form{
+       text-align: center;
+    }
+    #btn{
+        margin-left: 50%;
+        margin-bottom: 20px;
+    }
+
+    /*footer*/
+    footer {
+        background-color: sienna;
+        border: thick double wheat;
+    }
+    #ftrCntnr{
+        background-color: sienna;
+    }
+    #Contacts{
+        text-align: center;
+        background-color: sienna;
+    }
+    footer p {
+        font-family: 'Caveat', cursive;
+        font-size: 20px;
+        background-color: sienna;
+        text-align: center;
+    }
+   footer img{
        width: 200px;
        height: 200px;
        margin-top:20px;
        margin-bottom: 20px;
-   }
-   .list-2{
->>>>>>> a9f7351c9ad50f445b9e415504e0c6c1e6236911
-       margin-top: 20px;
-       background-color: sienna;
-       margin-bottom: 20px;  
-   }
-   .list-2 ul {
-    background-color: sienna;
-   }
-   .list-2 ul li {
-    background-color: sienna;
-   }
-   .list-2 ul a {
-    background-color: sienna;
-   }
+       margin-left: 50px;
+       
+    }
 }
-
 @media only screen and (min-width: 768px){
-    .footer {
-        display: flex;
-        justify-content: space-around;
+    footer{
+        overflow: auto;
     }
-    .footer img {
-        margin-left:25px;
+    footer img {
+        float: left;
     }
-    .list-2 {
-        margin-right: 25px;
+    footer p {
+        text-align: end;
+        margin-right: 15px;
     }
 }
 @media only screen and (min-width: 1024px){
-    .footer img {
+    #container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    footer img {
         width: 250px;
         height: 250px;
         margin-left:100px;
-        margin-top: 50px;
         margin-bottom: 20px;
     }
-    .list-2 {
+    footer p {
         margin-top: 50px;
-        margin-right: 100px;
-    }
-
-    footer img {
-       width: 200px;
-       height: 200px;
-       margin-top:20px;
-       margin-bottom: 20px;
-   }
-}
-*/
+        font-size: 25px;
+}}
